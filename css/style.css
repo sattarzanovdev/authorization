@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  margin: 0;
+  background: #3f3f3f;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.banner{
+  width: 90%;
+  padding: 20px 5%;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+.nav h1{
+  color: orangered;
+  font-family: marvel;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.line{
+  width: 70px;
+  height: 2px;
+  background: orangered;
+  margin-left: 50px;
+}
+
+.list{
+  margin-left: 100px;
+  display: flex;
+}
+
+.list .active a{
+  color: orangered;
+}
+
+.list li a{
+  margin-left: 25px;
+  font-family: marvel;
+  font-size: 18px;
+  color: white;
+  transition: .5s;
+}
+
+.list li a:hover{
+  color: orangered;
+}
+
+.banner-content{
+  height: 80vh;
+  padding: 15% 25px;
+  margin: 0;
+}
+
+.banner-content h1{
+  color: white;
+  font-size: 50px;
+  font-family: marvel;
+  font-weight: bolder;
+  
+}
+
+.banner-content p{
+  color: rgba(255, 255, 255, 0.384);
+  font-family: marvel;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.banner-content button{
+  margin-top: 25px;
+  width: 250px;
+  height: 50px;
+  background: orangered;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-family: marvel;
+  font-size: 25px;
+  cursor: pointer;
+}
