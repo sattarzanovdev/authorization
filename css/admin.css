@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  margin: 0;
+  background: #3f3f3f;
+}
+
+.search-block{
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.search-block input{
+  width: 500px;
+  height: 40px;
+  padding-left: 15px;
+  font-family: marvel;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-block select{
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+  background: orangered;
+  color: white;
+  font-family: marvel;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  padding: 0 5%;
+}
+
+.card{
+  width: 350px;
+  height: 350px;
+  margin-top: 25px;
+  background: orangered;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.card-header{
+  color: white;
+  font-family: marvel;
+  text-align: center;
+}
+
+.card-body img{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-footer {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-footer button{
+  width: 150px;
+  height: 35px;
+  background: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back{
+  width: 50px;
+  height: 50px;
+  margin: 2rem;
+  background: orangered;
+  color: white;
+  font-family: marvel;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add{
+  width: 50px;
+  height: 50px;
+  background: orangered;
+  color: white;
+  font-family: marvel;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-drop{
+  width: 300px;
+  height: 100px;
+  display: none;
+  justify-content: space-around;
+  flex-direction: column;
+  background: white;
+  padding: 6rem 2rem ;
+  margin-left: 120px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.add-drop button{
+  cursor: pointer;
+}
+
+
+.add-drop.active{
+  display: flex;
+  transition: .5s;
+}

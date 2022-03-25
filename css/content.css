@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  margin: 0;
+  background: #3f3f3f;
+  overflow-x: hidden;
+}
+
+.search-block{
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.search-block input{
+  width: 500px;
+  height: 40px;
+  padding-left: 15px;
+  font-family: marvel;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-block select{
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+  background: orangered;
+  color: white;
+  font-family: marvel;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  padding: 0 5%;
+}
+
+.card{
+  width: 350px;
+  height: 350px;
+  margin-top: 25px;
+  background: orangered;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.card-header{
+  color: white;
+  font-family: marvel;
+  text-align: center;
+}
+
+.card-body img{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-footer {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-footer button{
+  width: 100px;
+  height: 35px;
+  background: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.burger-menu{
+  width: 90%;
+  padding: 15px 5%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.burger-menu img{
+  width: 50px;
+  filter: invert();
+  cursor: pointer;
+  transition: .5s;
+}
+
+.sideBar{
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  padding: 0 15px;
+  transition: .5s;
+}
+
+.sideBar h1{
+  font-family: marvel;
+  font-size: 40px;
+}
+
+.logoWithTheme{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-sideBar{
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 30px;
+}
+
+.change{
+  width: 250px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: marvel;
+  font-size: 17px;
+}
+
+.sideBar p{
+  font-family: marvel;
+  font-size: 25px;
+}
+
+.bar.active-bar{
+  transform: translateX(-270px) rotate(360deg);
+}
+
+.sideBar.active-sideBar {
+  transform: translateX(-100%);
+  display: flex;
+}
+
+.back{
+  width: 50px;
+  height: 50px;
+  margin: 2rem;
+  background: orangered;
+  color: white;
+  font-family: marvel;
+  font-size: 20px;
+  border: 0;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.add{
+  background: orangered;
+  width: 270px;
+  height: 35px;
+  margin-top: 25px;
+  border: 0;
+  color: white;
+  font-family: marvel;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
